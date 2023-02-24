@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sir Syed CASE Institute of Technology CGPA Calculator</title>
+  <link rel="stylesheet" href="cgpa.css">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <main>
+
+    <nav>
+      <div class="logo">
+        <p><img src="img/logo.png" alt="logo">Sir Syed CASE Institute of Technology</p>
+      </div>
+    </nav>
+
+    <div id="header1">
+      <p> CGPA Calculator </p>
+    </div>
+
+    <div>
+
+      <br>
+
+
+      <div class="container">
+
+        <div class="starter">
+          <p> What do you want to Calculate ?</p>
+
+          <div>
+            <button type="button" class="buttons gpa-cgpa-btn" id="gpa_cal">GPA</button>
+            <button type="button" class="buttons gpa-cgpa-btn" id="cgpa_cal">CGPA</button>
+          </div>
+
+        </div>
+
+        <div id="mini-container">
+
+          <div id="choose_dropdown">
+
+          </div>
+
+          <div class="main_table" id="main-table">
+            <div id="inner_table">
+              <table>
+                <thead>
+                  <tr id="table_heading">
+
+                  </tr>
+                </thead>
+                <tbody id="use_js">
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <p id="submit_button"></p>
+
+          <div class="result-display" id="result-show-div">
+            <p id="show_result">
+
+            </p>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <br><br>
+
+      <div id="header2">
+        <p class="top-heading">GPA SCALE</p>
+      </div>
+
+
+      <table id="scale">
+        <tr>
+          <th>Letter Grades</th>
+          <th>Quality Points</th>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>4.00</td>
+        </tr>
+        <tr>
+          <td>A-</td>
+          <td>3.67</td>
+        </tr>
+        <tr>
+          <td>B+</td>
+          <td>3.33</td>
+        </tr>
+        <tr>
+          <td>B</td>
+          <td>3.00</td>
+        </tr>
+        <tr>
+          <td>B-</td>
+          <td>2.67</td>
+        </tr>
+        <tr>
+          <td>C+</td>
+          <td>2.33</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>2.00</td>
+        </tr>
+        <tr>
+          <td>C-</td>
+          <td>1.67</td>
+        </tr>
+        <tr>
+          <td>D+</td>
+          <td>1.33</td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td>1.00</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td>0.00</td>
+        </tr>
+      </table>
+      <br><br><br><br><br><br><br><br><br><br>
+      <footer>
+        <nav class="bottom-nav">
+          <ul>
+            <li><a>Muhammad Abdur Rehman</a></li>
+            &nbsp;&nbsp;
+            <li><a>FA2020 BSCS 022</a></li>
+          </ul>
+        </nav>
+      </footer>
+
+      
+  </main>
+
+  <script src="cgpa.js"></script>
+</body>
+
+</html>
